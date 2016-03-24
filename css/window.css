@@ -1,0 +1,101 @@
+.window_boundingBox {
+    position: fixed;
+    border: 1px solid #000;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    -ms-box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    -o-box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    background-color: white;
+}
+
+
+.boundingBox_header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.boundingBox_body {
+    padding: 10px;
+}
+
+.boundingBox_closeBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.window_mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0.3;
+    background-color: black;
+}
+
+.boundingBox_footer {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+.boundingBox_footer input{
+    width: 100px;
+}
+
+.boundingBox_cancelBtn{
+    margin-right: 20px;
+}
+
+/*skin for a*/
+
+.window_skin_a.window_boundingBox {
+    box-shadow: none;
+    border: 10px solid #ccc;
+    border-radius: 8px;
+}
+
+.window_skin_a input {
+    width: 50px;
+    left: auto;
+    right: 20px;
+    margin-left: 0;
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.window_skin_a .boundingBox_header {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.window_skin_a .boundingBox_closeBtn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    padding: 0;
+    text-align: center;
+    background-color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    right: -15px;
+    top: -15px;
+}
