@@ -29,7 +29,7 @@ require(['alert', 'jquery'], function (w, $) {
         }).on('alert', function () {
             alert('you click the 2 btn');
         }).on('close', function () {
-            alert('111111');
+            alert('you want to close');
         });
 
         win.on('alert', function () {
@@ -47,7 +47,7 @@ require(['alert', 'jquery'], function (w, $) {
         win.confirm({
             width:400,
             height:300,
-            title:'慕课网',
+            title:'Confirm',
             content:'您选择？',
             hasCloseBtn:false,
             handle4CancelBtn:function(){
